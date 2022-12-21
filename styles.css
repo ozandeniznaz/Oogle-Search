@@ -1,0 +1,235 @@
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+.nav-links {
+    text-align: right;
+    padding: 20px;
+}
+
+/* ul {
+    list-style: none;
+}
+
+li {
+    float: right;
+} */
+
+.nav-links-content {
+    text-decoration: none;
+    padding: 10px;
+    color: #4f4f4f;  
+    font-family: "Trebuchet MS";
+    font-weight: 600;
+}
+
+.nav-links-content:hover {
+    text-decoration: underline;
+}
+
+.container {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    height: 30%;
+    width: 30%;
+}
+
+.oogle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oogle-logo {
+    width: 200px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search-bar {
+    border: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    height: 40px;
+    width: 450px;
+    background-image: url('icon_search.png');
+    background-repeat: no-repeat;
+    background-position: 10px 9px;
+    background-size: 5%;
+    border-color: lightgray;
+    padding-inline: 40px;
+}
+
+.search-bar:hover, .search-bar:focus {
+    box-shadow: 0 1px 10px 0 lightgray, 0 1px 10px 0 lightgray;
+    outline: none;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.button-search {
+    width: 120px;
+    height: 30px;
+    border: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    border-radius: 5px;
+    font-family: "Trebuchet MS";
+    color: #4f4f4f;
+}
+
+.button-search:hover {
+    box-shadow: 0 1px 10px 0 lightgray, 0 1px 10px 0 lightgray;
+}
+
+.button-search:active {
+    transform: translateY(1px)
+}
+
+.button-lucky {
+    width: 120px;
+    height: 30px;
+    border: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    border-radius: 5px;
+    font-family: "Trebuchet MS";
+    color: #4f4f4f;
+}
+
+.button-lucky:hover {
+    box-shadow: 0 1px 10px 0 lightgray, 0 1px 10px 0 lightgray;
+}
+
+.button-lucky:active {
+    transform: translateY(1px)
+}
+
+.oogle-logo-nav {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+hr {
+    border-color: lightsteelblue;
+    border-bottom: 1px #ebebeb;
+}
+
+.advanced-search-text {
+    color: #de5246;
+    font-family: Arial, sans-serif;
+    font-weight: inherit;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.main {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+/* table, tr, td {border:1px solid black;} */
+
+h3 {
+    font-family: Arial, sans-serif;
+    font-weight:lighter;
+    color: #333;
+}
+
+h4 {
+    font-family: Arial, sans-serif;
+    font-size: small;
+    color: #777;
+}
+
+.left {
+    width: 200px;
+    height: 40px;
+}
+
+.label-text {
+    font-weight: lighter;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    color: #222;
+}
+
+.middle {
+    width: 580px;
+
+}
+
+.advanced-search {
+    width: 580px;
+    height: 30px;
+    border: solid;
+    border-radius: 1px;
+    border-width: 1px;
+    border-color: #cccccc;
+    border-radius: 1px;
+    border-width: 1px;
+    box-shadow: 0 0 1px 0 lightgray, 0 0 1px 0 lightgray;
+    padding-inline: 10px;
+}
+
+.advanced-search:focus {
+    border-color: #4D90FE;
+    outline: none;
+}
+
+.right-text {
+    font-weight: lighter;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    color: #555;
+    padding-left: 10px;
+}
+
+span {
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
+
+.button-advanced-search {
+    float: right;
+    background-color: #4D90FE;
+    color: #FFFFFF;
+    width: 120px;
+    height: 30px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    font-family: "Trebuchet MS";
+}
+
+.button-advanced-search:active {
+    transform: translateY(1px)
+}
+
+.button-advanced-search:hover {
+    background-color: hsl(217, 94%, 57%);
+}

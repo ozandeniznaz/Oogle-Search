@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oogle Advanced Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav-links">
+        <a href="index.html"><img src="oogle-logo.png" alt="Oogle logo" style="width: 75px; float: left;"></a>
+        <a class="nav-links-content" href="index.html">Oogle Search</a>
+    </nav>
+    <br>
+    <h2 class="advanced-search-text">Advanced Search</h2>
+    <hr>
+    <main class="main">
+        <table>
+            <tr>
+                <td>
+                    <h3>Find pages with...</h3>
+                </td>
+                <td class="middle">
+                </td>
+                <td>
+                    <h4>
+                        To do this in the search box
+                    </h4>
+                </td>
+            </tr>
+            <tr>
+                <form action="https://www.google.com/search">
+                    <tr>
+                        <td class="left">
+                            <div>
+                                <label for="atw" class="label-text">all these words:</label> 
+                            </div>
+                        </td>
+                        <td class="middle">
+                            <input type="text" id="atw" name="as_q" class="advanced-search" autocomplete="off">
+                        </td>
+                        <td class="right">
+                            <div class="right-text">
+                                Type the important words:
+                                <span>tricolor rat terrier</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">
+                            <div>
+                                <label for="tewop" class="label-text">this exact word or phrase:</label>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="middle">
+                                <input type="text" id="tewop" name="as_epq" class="advanced-search" autocomplete="off">
+                            </div>
+                        </td>
+                        <td class="right">
+                            <div class="right-text">
+                                Put exact words in quotes:
+                                <span>"rat terrier"</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">
+                            <div>
+                                <label for="aotw" class="label-text">any of these words:</label>
+                            </div>
+                        </td>
+                        <td class="middle">
+                            <input type="text" id="aotw" name="as_oq" class="advanced-search" autocomplete="off">
+                        </td>
+                        <td class="right">
+                            <div class="right-text">
+                                Type OR between all the words you want:
+                                <span>miniature OR standard</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">
+                            <div>
+                                <label for="notw" class="label-text">none of these words:</label>
+                            </div>
+                        </td>
+                        <td class="middle">
+                            <input type="text" id="notw" name="as_eq" class="advanced-search" autocomplete="off">
+                        </td>
+                        <td class="right">
+                            <div class="right-text">
+                                Put a minus sign just before words you don't want:
+                                <span> -rodent, -"Jack Russell"</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Advanced Search" class="button-advanced-search"></td>
+                        <td></td>
+                    </tr>
+                </form>
+            </tr>
+        </table>
+        
+    </main>
+</body>
+</html>
